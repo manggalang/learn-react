@@ -1,5 +1,26 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.App h1 {
+  text-transform: uppercase;
+}
+
+.App textarea {
+  display: block;
+  margin: auto;
+}
+
+.App input {
+  display: inline-block;
+}
+
+.App select {
+  display: inline-block;
 }
 
 .App-logo {
