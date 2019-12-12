@@ -1,16 +1,64 @@
 .App {
-  margin: auto;
   width: 1024px;
+  margin: auto;
 }
 
-.input-wrapper {
-  margin-bottom: 15px;
+.App h1 {
+  font-family: arial;
+  font-size: 36px;
 }
 
-.input-wrapper button {
-  margin-left: 10px;
+.App div input {
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid;
+  margin-right: 10px;
+  width: 300px;
+}
+
+.App div button {
+  background-color: #bc0101;
+  border: 0;
+  padding: 6px 10px;
+  border-radius: 2px;
+  color: white;
+}
+
+.App__btn-add {
+  margin-top: 5px;
+  padding: 4px 10px;
+  color: white;
+  border: 0;
+  background-color: #048f04;
+  border-radius: 2px;
+  font-size: 18px;
 }
 
 .App__btn-start {
+  background-color: #0d0d67;
+  border: 0;
   margin-left: 10px;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.input-wrapper {
+  margin-bottom: 10px;
+}
+
+/*.App button {
+  display: block;
+  margin: auto;
+  padding: 15px 45px;
+  border: 0;
+  color: white;
+  background-color: darkblue;
+  border-radius: 4px;
+}
+*/
+.App textarea {
+  margin-top: 20px;
+  display: block;
+  width: 300px;
 }
