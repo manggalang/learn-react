@@ -1,26 +1,16 @@
 .App {
-  text-align: center;
-}
-
-.App h1 {
-  font-family: arial;
-  font-size: 36px;
-}
-
-.App button {
-  display: block;
   margin: auto;
-  padding: 15px 45px;
-  border: 0;
-  color: white;
-  background-color: darkblue;
-  border-radius: 4px;
+  width: 1024px;
 }
 
-.App__input {
-  height: 100px;
+.input-wrapper {
+  margin-bottom: 15px;
 }
 
-.App textarea {
-  width: 300px;
+.input-wrapper button {
+  margin-left: 10px;
+}
+
+.App__btn-start {
+  margin-left: 10px;
 }
